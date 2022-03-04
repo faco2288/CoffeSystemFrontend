@@ -1,0 +1,12 @@
+.footer{
+    position: fixed;
+    bottom: 0px;
+    height: 40px;
+    width: 100%;
+    color: #fff;
+    background-color:#0054A5;
+}
+.clearfix{
+    clear: both;
+    float: none;
+}

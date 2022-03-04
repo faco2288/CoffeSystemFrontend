@@ -1,0 +1,14 @@
+<body>    
+    <div class="login-box">     
+        <h1>Login</h1>
+        <form method="post">
+          <!-- USERNAME INPUT -->
+          <label for="username">Username</label>
+          <input [(ngModel)]="usuario.username" type="text" name="username" id="username" placeholder="Enter Username" autofocus required>
+          <!-- PASSWORD INPUT -->
+          <label for="password">Password</label>
+          <input [(ngModel)]="usuario.password" type="password" name="password" id="password" placeholder="Enter Password" autofocus required>
+          <input (click)='login()' type="submit" value="Login">
+        </form>
+      </div>
+</body> 
